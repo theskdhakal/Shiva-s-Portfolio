@@ -1,24 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { About } from "./Component/About";
+import { Contact } from "./Component/Contact";
+import { Footer } from "./Component/Footer";
+import { Header } from "./Component/Header";
+import { Hero } from "./Component/Hero";
+import { Projects } from "./Component/Projects";
+import { Skills } from "./Component/Skills";
+import "./style.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <!-- dark-mode-button  --> */}
+      <input type="checkbox" id="darkmode" class="dark-mode-checkbox" />
+
+      <div class="wrapper">
+        <label for="darkmode">
+          <i class="fa-solid fa-circle-half-stroke dark-mode-toggle"></i>
+        </label>
+
+        {/* <!-- navigation bar  --> */}
+        <Header />
+
+        {/* <!-- hero section  --> */}
+        <Hero />
+
+        {/* <!-- skill section  --> */}
+        <Skills />
+
+        {/* <!-- Project section  --> */}
+        <Projects />
+
+        {/* <!-- about me section  --> */}
+        <About />
+
+        {/* <!-- get in touch section  --> */}
+        <Contact />
+
+        {/* <!-- footer section  --> */}
+        <Footer />
+      </div>
+    </>
   );
 }
 
