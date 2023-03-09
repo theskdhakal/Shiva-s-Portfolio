@@ -9,7 +9,9 @@ export const Header = () => {
         </div>
 
         <div class="work">
-          <h1>Web developer</h1>
+          <h1>
+            {"{"}Web developer{"}"}
+          </h1>
         </div>
       </div>
 
