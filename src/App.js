@@ -8,38 +8,21 @@ import { Projects } from "./Component/Projects";
 import { Skills } from "./Component/Skills";
 import "./style.css";
 
+import { Routes, Route } from "react-router-dom";
+import { Layout } from "./Component/Layout";
+
 function App() {
   return (
     <>
-      {/* <!-- dark-mode-button  --> */}
-      <input type="checkbox" id="darkmode" className="dark-mode-checkbox" />
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="skills" element={<Skills />} />
+        <Route path="projects" element={<Projects />} />
+        <Route path="about-me" element={<About />} />
+        <Route path="contact" element={<Contact />} />
 
-      <div className="wrapper">
-        <label htmlFor="darkmode">
-          <i className="fa-solid fa-circle-half-stroke dark-mode-toggle"></i>
-        </label>
-
-        {/* <!-- navigation bar  --> */}
-        <Header />
-
-        {/* <!-- hero section  --> */}
-        <Hero />
-
-        {/* <!-- skill section  --> */}
-        <Skills />
-
-        {/* <!-- Project section  --> */}
-        <Projects />
-
-        {/* <!-- about me section  --> */}
-        <About />
-
-        {/* <!-- get in touch section  --> */}
-        <Contact />
-
-        {/* <!-- footer section  --> */}
-        <Footer />
-      </div>
+        <Route path="*" element={<h1>404 page not found</h1>} />
+      </Routes>
     </>
   );
 }

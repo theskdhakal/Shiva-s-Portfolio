@@ -1,10 +1,11 @@
 import React from "react";
 import me from "../asset/me.png";
 import resume from "../asset/resume.docx";
+import { Layout } from "./Layout";
 
 export const Hero = () => {
   return (
-    <>
+    <Layout>
       {" "}
       <div className="section1 grid">
         <div className="pic flex">
@@ -75,6 +76,6 @@ export const Hero = () => {
           </div>
         </div>
       </section>
-    </>
+    </Layout>
   );
 };
