@@ -9,7 +9,6 @@ import { Skills } from "./Component/Skills";
 import "./style.css";
 
 import { Routes, Route } from "react-router-dom";
-import { Layout } from "./Component/Layout";
 
 function App() {
   return (

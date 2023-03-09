@@ -1,7 +1,6 @@
 import React, { Children } from "react";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
-import { Hero } from "./Hero";
 
 export const Layout = ({ children }) => {
   return (
@@ -17,6 +16,7 @@ export const Layout = ({ children }) => {
 
         {/* dynamic page container  */}
         {children}
+
         <Footer />
       </div>
     </>
