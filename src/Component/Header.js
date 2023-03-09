@@ -8,8 +8,10 @@ export const Header = () => {
           <h1>Shiva</h1>
         </div>
 
-        <div className="work">
-          <h1>Web developer</h1>
+        <div class="work">
+          <h1>
+            {"{"}Web developer{"}"}
+          </h1>
         </div>
       </div>
 
