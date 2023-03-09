@@ -2,23 +2,23 @@ import React from "react";
 
 export const Header = () => {
   return (
-    <nav class="navigation flex">
-      <div class="left flex">
-        <div class="name">
+    <nav className="navigation flex">
+      <div className="left flex">
+        <div className="name">
           <h1>Shiva</h1>
         </div>
 
-        <div class="work">
+        <div className="work">
           <h1>Web developer</h1>
         </div>
       </div>
 
-      <div class="right flex">
+      <div className="right flex">
         <input type="checkbox" id="check" />
-        <label for="check" class="menu-icon">
-          <i class="fa-solid fa-bars"></i>
+        <label for="check" className="menu-icon">
+          <i className="fa-solid fa-bars"></i>
         </label>
-        <ul class="list flex">
+        <ul className="list flex">
           <li>
             <a href="#"> Home</a>
           </li>

@@ -6,66 +6,66 @@ export const Hero = () => {
   return (
     <>
       {" "}
-      <div class="section1 grid">
-        <div class="pic flex">
+      <div className="section1 grid">
+        <div className="pic flex">
           <img src={me} alt="" />
         </div>
 
-        <div class="content flex">
-          <div class="flex">
-            <h2 class="first">Shiva</h2>
-            <p class="tag">Web developer</p>
+        <div className="content flex">
+          <div className="flex">
+            <h2 className="first">Shiva</h2>
+            <p className="tag">Web developer</p>
           </div>
 
           <button>
             <a href={resume} download={true}>
               Download CV{" "}
               <span>
-                <i class="fa-solid fa-angle-down"></i>
+                <i className="fa-solid fa-angle-down"></i>
               </span>
             </a>
           </button>
         </div>
       </div>
-      <section class="section2 flex">
-        <div class="container flex">
-          <div class="info-list flex">
-            <div class="info-content flex">
-              <div class="icon-container flex">
-                <i class="fa-solid fa-award"></i>
+      <section className="section2 flex">
+        <div className="container flex">
+          <div className="info-list flex">
+            <div className="info-content flex">
+              <div className="icon-container flex">
+                <i className="fa-solid fa-award"></i>
               </div>
               <span>
                 <h5>IT</h5>
                 <p>Graduate</p>
               </span>
             </div>
-            <div class="info-divider"></div>
+            <div className="info-divider"></div>
 
-            <div class="info-content flex">
-              <div class="icon-container flex">
-                <i class="fa-solid fa-award"></i>
+            <div className="info-content flex">
+              <div className="icon-container flex">
+                <i className="fa-solid fa-award"></i>
               </div>
               <span>
                 <h5>IT</h5>
                 <p>Graduate</p>
               </span>
             </div>
-            <div class="info-divider"></div>
+            <div className="info-divider"></div>
 
-            <div class="info-content flex">
-              <div class="icon-container flex">
-                <i class="fa-solid fa-award"></i>
+            <div className="info-content flex">
+              <div className="icon-container flex">
+                <i className="fa-solid fa-award"></i>
               </div>
               <span>
                 <h5>IT</h5>
                 <p>Graduate</p>
               </span>
             </div>
-            <div class="info-divider"></div>
+            <div className="info-divider"></div>
 
-            <div class="info-content flex">
-              <div class="icon-container flex">
-                <i class="fa-solid fa-award"></i>
+            <div className="info-content flex">
+              <div className="icon-container flex">
+                <i className="fa-solid fa-award"></i>
               </div>
               <span>
                 <h5>IT</h5>

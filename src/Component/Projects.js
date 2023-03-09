@@ -5,38 +5,38 @@ import c from "../asset/c.jpeg";
 
 export const Projects = () => {
   return (
-    <section class="section4 flex">
-      <div class="title">
+    <section className="section4 flex">
+      <div className="title">
         <h2>My Projects</h2>
       </div>
 
-      <div class="project-list grid">
-        <div class="project flex">
-          <div class="img">
+      <div className="project-list grid">
+        <div className="project flex">
+          <div className="img">
             <img src={a} alt="" />
           </div>
 
-          <div class="flex">
+          <div className="flex">
             <p>Dec. 21, 2022</p>
             <h4>Full stack web Application built using React and firebase</h4>
           </div>
         </div>
-        <div class="project flex">
-          <div class="img">
+        <div className="project flex">
+          <div className="img">
             <img src={b} alt="" />
           </div>
 
-          <div class="flex">
+          <div className="flex">
             <p>Dec. 21, 2022</p>
             <h4>Full stack web Application built using React and firebase</h4>
           </div>
         </div>
-        <div class="project flex">
-          <div class="img">
+        <div className="project flex">
+          <div className="img">
             <img src={c} alt="" />
           </div>
 
-          <div class="flex">
+          <div className="flex">
             <p>Dec. 21, 2022</p>
             <h4>Full stack web Application built using React and firebase</h4>
           </div>

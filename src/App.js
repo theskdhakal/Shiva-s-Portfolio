@@ -12,11 +12,11 @@ function App() {
   return (
     <>
       {/* <!-- dark-mode-button  --> */}
-      <input type="checkbox" id="darkmode" class="dark-mode-checkbox" />
+      <input type="checkbox" id="darkmode" className="dark-mode-checkbox" />
 
-      <div class="wrapper">
-        <label for="darkmode">
-          <i class="fa-solid fa-circle-half-stroke dark-mode-toggle"></i>
+      <div className="wrapper">
+        <label htmlFor="darkmode">
+          <i className="fa-solid fa-circle-half-stroke dark-mode-toggle"></i>
         </label>
 
         {/* <!-- navigation bar  --> */}

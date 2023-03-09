@@ -3,11 +3,11 @@ import React from "react";
 export const Footer = () => {
   return (
     <footer>
-      <div class="footer-container flex">
-        <div class="top flex">
-          <div class="links">
+      <div className="footer-container flex">
+        <div className="top flex">
+          <div className="links">
             <h2>LINKS</h2>
-            <ul class="one">
+            <ul className="one">
               <li>Home</li>
               <li>Skills</li>
               <li>Projects</li>
@@ -16,7 +16,7 @@ export const Footer = () => {
             </ul>
           </div>
 
-          <div class="external">
+          <div className="external">
             <h2>EXTERNAL LINKS</h2>
             <ul>
               <li>LinkedIn</li>
@@ -26,7 +26,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div class="bottom flex">&Copy 2022! All rights reserved!</div>
+        <div className="bottom flex">&Copy 2022! All rights reserved!</div>
       </div>
     </footer>
   );

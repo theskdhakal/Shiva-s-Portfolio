@@ -3,26 +3,26 @@ import me from "../asset/me.png";
 
 export const About = () => {
   return (
-    <section class="section5 flex">
+    <section className="section5 flex">
       <h1>About me</h1>
 
-      <div class="about-container grid">
-        <div class="img flex">
-          <div class="bg"></div>
+      <div className="about-container grid">
+        <div className="img flex">
+          <div className="bg"></div>
           <img src={me} alt="" />
         </div>
 
-        <div class="side flex">
+        <div className="side flex">
           <h2>Shiva</h2>
-          <div class="about">
+          <div className="about">
             <p>I grew up in Nepal and currenlt living in sydney , Australia.</p>
             <h5>Sydney, Australia</h5>
             <a href="">Connect with me</a>
           </div>
 
-          <div class="interest flex">
-            <h4 class="title">Interest</h4>
-            <div class="flex">
+          <div className="interest flex">
+            <h4 className="title">Interest</h4>
+            <div className="flex">
               <p>coding</p>
               <p>Travelling</p>
               <p>Movies</p>
