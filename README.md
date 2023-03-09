@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+#git
+-create new branch:'git branch <branchName>'
+-switch branch: 'git checkout <branchName>'
+-mergr branch :'git mergr <fromBranch>;,you should be within the merging branch

@@ -15,7 +15,7 @@ export const Header = () => {
 
       <div className="right flex">
         <input type="checkbox" id="check" />
-        <label for="check" className="menu-icon">
+        <label htmlFor="check" className="menu-icon">
           <i className="fa-solid fa-bars"></i>
         </label>
         <ul className="list flex">
